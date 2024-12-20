@@ -1,0 +1,489 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f5fd;
+    height: 4000px;
+}
+header{
+    background-color: white;
+   height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+ 
+    align-items: center;
+  
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 30px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.left {
+    font-size: 1.4rem;
+    padding-left: 30px;
+
+   
+
+
+}
+.right{
+    font-size: 1.2rem;
+}
+.sign{
+    background: darkblue;
+    padding: 2px 2px 2px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+    display: flex;
+   
+    align-items: center;
+   
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+.button{
+    margin-left: 10px;
+   width: 25px;
+}
+.homesection  {
+    display: flex;
+    justify-content: space-evenly;
+}
+.righthome {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 600px;
+    padding-right: 500px;
+   
+
+} 
+ .righthome p{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    margin-right: 10px;
+  
+}
+
+
+.tickets{
+    width: 40px;
+    margin-right: 10px;
+   
+}
+.ticket{
+    width: 20px;
+    margin-right: 10px;
+
+}
+.flight{
+    width: 40px;
+    margin-right: 10px;
+  
+    
+}
+.travel{
+    width: 150px;
+    margin-top: 15px;
+}
+.ticketbox{
+    width: 1200px;
+   
+    padding:20px 60px 40px 60px;
+    background-color:white ;
+    border-radius: 14px;
+    margin: 50px auto;
+
+}
+.radiobutton{
+    display: flex;
+    margin-right: 20px;
+}
+.grey{
+    color: grey;
+}
+hr {
+  width: 50px;
+  font-size: 20px;
+  margin-left: 0;
+}
+.search{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00baf2;
+    color: white;
+    border: 0cap;
+    border-radius: 5px;
+    margin-right: 20px;
+   font-weight: 700;
+}
+.tickettext{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: bottom;
+    margin-top: 20px;
+   
+}
+.fontsize{
+    font-size: 14px;
+}
+.special{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+.fare{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: grey;
+   border: 1px solid grey;
+   outline: none;
+   margin-left:20px ;
+}
+.img-size{
+    width: 380px;
+    border-radius: 10px;
+   
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+ max-width: 1200px;
+
+  margin: 10px auto;
+    
+    
+}
+.blue{
+   background-color: #00baf2;
+  padding: 50px 50px;
+  margin-right: 50px;
+   color: white;
+width: 100%;
+overflow: hidden;
+   
+}
+.re{
+    font-size: 2rem;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+.recharge{
+    
+    padding: 10px 10px;
+    width: 80px;
+    
+    font-size:1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    vertical-align: bottom;
+}
+.rec{
+    width: 50px;
+    
+    
+}
+.pay{
+    display: flex;
+   justify-content: space-evenly;
+   margin-right: 10px;
+   margin-left: -10px;
+}
+.rech{
+    padding: 10px 10px;
+    width: 120px;
+    
+    font-size:1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    vertical-align: bottom;
+}
+.recha{
+    padding: 10px 10px;
+    width: 100px;
+    
+    font-size:1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    vertical-align: bottom;
+}
+.download{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 80px;
+   
+}
+.paytm-1{
+width: 100px;
+margin-top: 50px;
+
+
+}
+.download h1{
+    font-size: 3rem;
+}
+.download p{
+    font-size: 1.5rem;
+}
+.leftpay{
+    max-width: 600px;
+    margin-right: 100px;
+}
+.app{
+    padding: 10px 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.paytm-2{
+    width: 500px;
+    margin-top: 20px;
+ 
+}
+.darkblue{
+    
+    background-color: rgb(5, 29, 82);
+    padding: 20px 30px;
+    color: white;
+}
+.card{
+    width:1150px;
+    background-color: rgb(255, 255, 255);
+    padding:70px 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 50px auto;
+    font-size: 1.2rem;
+    
+}
+.left{
+    max-width: 500px;
+    flex-grow: 2;
+    line-height: 50px;
+}
+.right{
+    flex-grow: 1;
+}
+.upi{
+    display: flex; 
+    justify-content: space-around;
+    max-width:400px;
+}
+.upi-1{
+    width: 500px;
+    margin-left: 50px;
+}
+.upi-2{
+    width:75px;
+    
+}
+button{
+padding: 10px 40px;
+background-color: rgb(0, 0, 0);
+color: white;
+outline: none;
+border-radius: 50px;
+border: 1px solid black;
+}
+.box{
+    display: flex;
+   gap: 100px;
+   margin: 50px auto;
+   justify-content: center;
+}
+.card1{
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    padding:30px ;
+    
+    border-radius: 10px;
+}
+
+.card2{
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    padding:50px ;
+    
+    border-radius: 10px;
+}
+
+.upi-3{
+    margin-top: px;
+    width:200px;
+}
+.upi-4{
+    margin-left: 20px;
+    width: 400px;
+}
+.sky{
+color: rgb(7, 171, 235);
+}
+.learn{
+    padding: 10px 40px;
+background-color: rgb(14, 8, 119);
+color: white;
+outline: none;
+border-radius: 50px;
+border: 1px solid black;
+}
+.upi-5{
+    width: 200px;
+}
+.download-1{ 
+    background-image: url("assets/bg.avif");
+    background-color: #cccccc;
+   background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.download-1 h1{
+    font-size: 3rem;
+}
+.download-1 p{
+    font-size: 1.5rem;
+}
+.google-photos{
+    width: 300px;
+    
+    
+    border-radius: 14px;
+    margin: 80px auto;
+   
+}
+.google-photos p{
+    line-height: 25px;
+}
+.photo img{
+    width:100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.data {
+    padding: 20px;
+
+}
+.data p{
+    color: grey;
+}
+.srd{
+    background-color: rgb(0, 119, 255);
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    max-height: 250px;
+  }
+  .srd img{
+    width: 100%;
+  }
+  .download-2{
+    display: flex;
+    justify-content: center;
+  
+    gap: 30px;
+    vertical-align: middle;
+  }
+  .bg{
+    background-color: white;
+  }
+  .pn{
+    width: 150px;
+  }
+  footer {
+    background: #fff;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-section {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .footer-section h2 {
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: none; 
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .footer-section h2:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section h2::after {
+    content: "+";
+    float: right;
+    font-size: 16px;
+  }
+  
+  .footer-section.active h2::after {
+    content: "-";
+  }
+  
+  .footer-section.active ul {
+    display: block;
+  }
